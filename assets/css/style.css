@@ -28,7 +28,7 @@
   .trabajosCard p {
     text-align: center;
     margin: 20px 0; }
-  .trabajosCard a {
+  .trabajosCard .cta {
     display: block;
     background-color: #B8BCE9;
     color: #FFFFFF;
@@ -100,3 +100,28 @@ a {
   padding-bottom: 15px; }
   .encabezadoFooter img {
     text-decoration: none; }
+
+/*Gallery*/
+.galeria {
+  padding: 20px 0; }
+
+.galeriaImg, .tazaImg {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px; }
+
+.tazaImg {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 50%; }
+
+/*FORMULARIO*/
+.btnForm {
+  background-color: #B8BCE9;
+  color: #FFFFFF; }
+
+.textForm {
+  color: #FFFFFF;
+  font-size: 1.2em; }

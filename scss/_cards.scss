@@ -5,8 +5,8 @@
     height: auto;
     padding: 0 0 20px;
     margin: 30px auto;
-    box-shadow: $cardShadow;
-    background-color: $bgCard;
+    box-shadow: map-get($mapaDecolores, $cardShadow);
+    background-color: map-get($mapaDecolores, $bgCard);
     border-radius: 20px;
     img{
         width: 100%;
@@ -17,10 +17,10 @@
         text-align: center;
         margin: 20px 0;
     }
-    a{
+    .cta{
         display: block;
-        background-color: $btnColor;
-        color: $textColor;
+        background-color: map-get($mapaDecolores, $btnColor);
+        color: map-get($mapaDecolores, $textColor );
         font-family: $paragraphFont;
         font-size: 1.3em;
         padding: 10px 0;
@@ -47,7 +47,7 @@
     height: auto;
     padding: 15px;
     margin: 10px;
-    background-color: $bgCard;
+    background-color: map-get($mapaDecolores , $bgCard);
     border-radius: 10px;
     text-align: center;
     img{

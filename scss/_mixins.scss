@@ -1,0 +1,6 @@
+@mixin gallery($border-radius){
+    width: 100%;
+    background-color: $textColor;
+    padding: 15px;
+    border-radius: $border-radius;
+}

@@ -1,0 +1,10 @@
+/*FORMULARIO*/
+.btnForm{
+    background-color: map-get($mapaDecolores , $btnColor);
+    color: map-get($mapaDecolores , $textColor );
+}
+
+.textForm{
+    color: map-get($mapaDecolores , $textColor );
+    font-size: 1.2em;
+}

@@ -1,0 +1,13 @@
+/*Gallery*/
+.galeria{
+    padding: 20px 0;
+}
+
+.galeriaImg{
+    @include gallery(10px);
+}
+
+.tazaImg{
+    @extend .galeriaImg;
+    @include gallery(50%);
+}
