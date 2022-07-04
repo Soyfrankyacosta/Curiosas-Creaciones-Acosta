@@ -11,10 +11,18 @@
     font-size: 2em; }
     #botonera a:hover {
       color: #FFFFFF; }
+  @media screen and (min-width: 768px) {
+    #botonera img {
+      width: 180px; }
+    #botonera a {
+      font-size: 2.5em; } }
+  @media screen and (min-width: 1024px) {
+    #botonera a {
+      font-size: 2.8em; } }
 
 /*CARDS*/
 .trabajosCard {
-  width: 300px;
+  width: 280px;
   height: auto;
   padding: 0 0 20px;
   margin: 30px auto;
@@ -39,6 +47,13 @@
     width: 150px;
     margin: 0 auto;
     border-radius: 20px; }
+  .trabajosCard:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 2s; }
+  @media screen and (min-width: 1024px) {
+    .trabajosCard {
+      width: 320px; } }
 
 /*COMENTARIOS CLIENTES*/
 .clientesContainer {
@@ -58,6 +73,9 @@
   text-align: center; }
   .comentariosClientes img {
     width: 30px; }
+  .comentariosClientes:hover {
+    background-color: #B8BCE9;
+    transition: 1s; }
 
 /*COMMONS*/
 body {
@@ -70,20 +88,44 @@ h4 {
   font-family: "Kalam", cursive;
   color: #3399CC;
   text-align: center;
-  padding: 20px 0px; }
+  padding: 15px 0px; }
 
 h2 {
-  font-size: 4em; }
+  font-size: 2.5em; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 3.3em; } }
+  @media screen and (min-width: 1024px) {
+    h2 {
+      font-size: 4em; } }
+
+h3 {
+  font-size: 2em; }
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 2.5em; } }
 
 h4 {
-  font-size: 2em; }
+  font-size: 1.5em; }
+  @media screen and (min-width: 768px) {
+    h4 {
+      font-size: 2em; } }
+  @media screen and (min-width: 1024px) {
+    h4 {
+      font-size: 2.5em; } }
 
 p {
   font-family: "Arima", cursive;
   line-height: 1.2em;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 300;
   color: #FFFFFF; }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 1024px) {
+    p {
+      font-size: 1.8em; } }
 
 a {
   text-decoration: none; }
@@ -101,6 +143,27 @@ a {
   .encabezadoFooter img {
     text-decoration: none; }
 
+/*NOSOTROS*/
+.sobreNosotros {
+  flex-direction: column;
+  text-align: center;
+  background-color: #CBE7; }
+  .sobreNosotros img {
+    width: 100%; }
+  @media screen and (min-width: 1024px) {
+    .sobreNosotros {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .sobreNosotros img {
+        width: 50%; }
+      .sobreNosotros .textNosotros {
+        line-height: 1; }
+        .sobreNosotros .textNosotros h3 {
+          padding: 0px; }
+      .sobreNosotros .imgInvertida {
+        order: -1; } }
+
 /*Gallery*/
 .galeria {
   padding: 20px 0; }
@@ -117,11 +180,29 @@ a {
   padding: 15px;
   border-radius: 50%; }
 
+.brilloImg {
+  transition: 0.5s filter; }
+  .brilloImg:hover {
+    filter: contrast(0.7); }
+
 /*FORMULARIO*/
 .btnForm {
   background-color: #B8BCE9;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-bottom: 10px; }
+  @media screen and (min-width: 768px) {
+    .btnForm {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 1024px) {
+    .btnForm {
+      font-size: 1.5em; } }
 
 .textForm {
   color: #FFFFFF;
   font-size: 1.2em; }
+  @media screen and (min-width: 768px) {
+    .textForm {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 1024px) {
+    .textForm {
+      font-size: 1.8em; } }

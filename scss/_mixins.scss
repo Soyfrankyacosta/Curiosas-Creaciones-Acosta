@@ -4,3 +4,11 @@
     padding: 15px;
     border-radius: $border-radius;
 }
+
+//MEDIA QUERIES//
+
+@mixin media-up($breakPoint) {
+    @media screen and (min-width: map-get($breakPoints, $breakPoint)) {
+        @content;
+    }
+}

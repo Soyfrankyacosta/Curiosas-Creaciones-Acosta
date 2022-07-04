@@ -2,9 +2,22 @@
 .btnForm{
     background-color: map-get($mapaDecolores , $btnColor);
     color: map-get($mapaDecolores , $textColor );
+    margin-bottom: 10px;
+    @include media-up(md){
+        font-size: 1.5em;
+    }
+    @include media-up(lg){
+        font-size: 1.5em;
+    }
 }
 
 .textForm{
     color: map-get($mapaDecolores , $textColor );
     font-size: 1.2em;
+    @include media-up(md){
+        font-size: 1.5em;
+    }
+    @include media-up(lg){
+        font-size: 1.8em;
+    }
 }

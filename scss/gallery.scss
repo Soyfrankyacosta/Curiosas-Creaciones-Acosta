@@ -5,9 +5,17 @@
 
 .galeriaImg{
     @include gallery(10px);
+
 }
 
 .tazaImg{
     @extend .galeriaImg;
     @include gallery(50%);
+}
+
+.brilloImg{
+    transition: 0.5s filter;
+    &:hover{
+        filter: contrast(0.7);
+    }
 }

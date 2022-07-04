@@ -14,5 +14,19 @@
         }
     }
 
+    @include media-up(md){
+        img{
+            width: 180px;
+        }
+        a{
+            font-size: 2.5em;
+        }
+    }
+    
+    @include media-up(lg){
+        a{
+            font-size: 2.8em;
+        }
+    }
 }
 
