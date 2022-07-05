@@ -28,6 +28,7 @@
         width: 150px;
         margin: 0 auto;
         border-radius: 20px;
+        &:hover{ color: map-get($mapaDecolores, $bgColor );}
     }
     &:hover{
         transform: scale(1.05);

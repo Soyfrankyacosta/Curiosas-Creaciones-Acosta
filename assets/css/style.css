@@ -14,11 +14,13 @@
   @media screen and (min-width: 768px) {
     #botonera img {
       width: 180px; }
+      #botonera img:hover {
+        filter: drop-shadow(0 0 20px white); }
     #botonera a {
       font-size: 2.5em; } }
   @media screen and (min-width: 1024px) {
     #botonera a {
-      font-size: 2.8em; } }
+      font-size: 2.2em; } }
 
 /*CARDS*/
 .trabajosCard {
@@ -47,6 +49,8 @@
     width: 150px;
     margin: 0 auto;
     border-radius: 20px; }
+    .trabajosCard .cta:hover {
+      color: #E7D7F8; }
   .trabajosCard:hover {
     transform: scale(1.05);
     cursor: pointer;
@@ -88,7 +92,7 @@ h4 {
   font-family: "Kalam", cursive;
   color: #3399CC;
   text-align: center;
-  padding: 15px 0px; }
+  padding: 15px 10px; }
 
 h2 {
   font-size: 2.5em; }
@@ -97,7 +101,7 @@ h2 {
       font-size: 3.3em; } }
   @media screen and (min-width: 1024px) {
     h2 {
-      font-size: 4em; } }
+      font-size: 3.5em; } }
 
 h3 {
   font-size: 2em; }
@@ -116,6 +120,7 @@ h4 {
 
 p {
   font-family: "Arima", cursive;
+  padding: 0 10px;
   line-height: 1.2em;
   font-size: 1.4em;
   font-weight: 300;
@@ -186,6 +191,11 @@ a {
     filter: contrast(0.7); }
 
 /*FORMULARIO*/
+.formContainer {
+  background-color: #B6D6F2;
+  border: 5px solid #FFFFFF;
+  margin-bottom: 30px; }
+
 .btnForm {
   background-color: #B8BCE9;
   color: #FFFFFF;

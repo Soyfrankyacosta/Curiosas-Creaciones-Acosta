@@ -1,4 +1,10 @@
 /*FORMULARIO*/
+.formContainer{
+    background-color: map-get($mapaDecolores, $primaryColor );
+    border: (5px solid map-get($mapaDecolores , $textColor ));
+    margin-bottom: 30px;
+}
+
 .btnForm{
     background-color: map-get($mapaDecolores , $btnColor);
     color: map-get($mapaDecolores , $textColor );
